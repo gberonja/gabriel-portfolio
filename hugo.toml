@@ -1,0 +1,58 @@
+baseURL = 'https://gabrielberonja.com/'
+languageCode = 'hr'
+title = 'Gabriel Beronja'
+theme = ''
+
+# Parametri sajta
+[params]
+  author = "Gabriel Beronja"
+  description = "IT Developer & Folklorni Glazbenik"
+  tagline = "Spajam tehnologiju i tradiciju kroz inovativna rješenja i glazbenu umjetnost"
+  email = "gabriel.beronja@gmail.com"
+  
+  # Social links
+  [[params.social]]
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/gabrielberonja"
+    icon = "linkedin"
+  
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/gabrielberonja"
+    icon = "github"
+    
+  [[params.social]]
+    name = "Instagram"
+    url = "https://instagram.com/gabrielberonja"
+    icon = "instagram"
+
+# Navigacija
+[menu]
+  [[menu.main]]
+    name = "Početna"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    name = "O meni"
+    url = "#about"
+    weight = 2
+  
+  [[menu.main]]
+    name = "Projekti"
+    url = "#projects"
+    weight = 3
+  
+  [[menu.main]]
+    name = "Kontakt"
+    url = "#contact"
+    weight = 4
+
+# Multi-language support (za kasnije)
+[languages]
+  [languages.hr]
+    weight = 1
+    languageName = "Hrvatski"
+
+[params.custom]
+  fontLink = "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
