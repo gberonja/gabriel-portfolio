@@ -58,6 +58,7 @@
   <div class="hero-content">
     <h1 class="hero-title">Gabriel Beronja</h1>
     <p class="hero-subtitle">IT Developer &amp; Folklorni Glazbenik</p>
+    <p class="hero-location">📍 Zagreb, Hrvatska</p>
     <p class="hero-tagline">Spajam tehnologiju i tradiciju kroz inovativna rješenja i glazbenu umjetnost</p>
     <div class="hero-buttons">
       <a href="#projects" class="btn btn-primary">Pogledaj projekte</a>
@@ -70,36 +71,73 @@
 <section id="about" class="section about">
   <div class="container">
     <h2 class="section-title">O meni</h2>
-    <div class="about-grid">
-      <div class="about-card">
-        <div class="about-icon">💻</div>
-        <h3>IT Stručnjak</h3>
-        <p>
-          Student 2. godine diplomskog studija informatike na Sveučilištu Jurja
-          Dobrile u Puli. Specijaliziram se za razvoj modernih web i mobilnih
-          aplikacija.
-        </p>
-        <div class="skill-tags">
-          <span class="skill-tag">Neuronske mreže</span>
-          <span class="skill-tag">IoT</span>
-          <span class="skill-tag">Blockchain</span>
-          <span class="skill-tag">React</span>
-          <span class="skill-tag">Node.js</span>
+    <div class="about-content">
+      <div class="about-main">
+        <div class="about-text">
+          <h3>Magistar glazbene kulture i IT stručnjak</h3>
+          <p>
+            Trenutno završavam diplomski studij informatike na Sveučilištu Jurja
+            Dobrile u Puli, specijalizirajući se za distribuirane sustave,
+            blockchain tehnologije i moderne web aplikacije. Paralelno s
+            akademskim studijima, aktivno radim kao profesionalni folklorni
+            glazbenik.
+          </p>
+
+          <h4>Glazbena karijera</h4>
+          <p>
+            <strong>Ansambl LADO</strong> - Profesionalni folklorni glazbenik u
+            najprestižnijem hrvatskom folklornom ansamblu. Sviram tamburu,
+            mandolinu, cimbalom, violinu i druge tradicijske instrumente.
+          </p>
+
+          <p>
+            Završio sam magistarski studij glazbene kulture na Umjetničkoj
+            akademiji u Splitu (2022-2023) s diplomskim radom "Povijest
+            tamburaštva u Splitu od 1918. do 1970." te preddiplomski studij
+            glazbene pedagogije (2018-2022).
+          </p>
+
+          <h4>Radno iskustvo</h4>
+          <p>
+            Radio sam kao knjižničar u Gradskoj knjižnici Marka Marulića Split
+            (2023-2024), gdje sam organizirao događaje, radio s ostavštinom
+            Ljube Stipišića Delmate i suradivao s hrvatskim i međunarodnim
+            umjetnicima.
+          </p>
+
+          <h4>Glazbeno vodstvo</h4>
+          <p>
+            Iskusan glazbeni voditelj u folklornim ansamblima - FA Jedinstvo
+            (2018-2022) i HFA Jadro (2016-2018). Radim kao dirigent orkestra,
+            zborovođa, aranžer i skladatelj, te podučavam sviranje tradicijskih
+            instrumenata.
+          </p>
         </div>
       </div>
-      <div class="about-card">
-        <div class="about-icon">🎵</div>
-        <h3>Glazbenik</h3>
-        <p>
-          Diplomirao glazbenu kulturu na Umjetničkoj akademiji u Splitu.
-          Profesionalni folklorni glazbenik u ansamblu Lado.
-        </p>
-        <div class="skill-tags">
-          <span class="skill-tag">Transkripcija</span>
-          <span class="skill-tag">Aranžiranje</span>
-          <span class="skill-tag">Folklor</span>
-          <span class="skill-tag">Ansambl Lado</span>
-          <span class="skill-tag">Pedagogija</span>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h4>IT Vještine</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Blockchain & Web3</span>
+            <span class="skill-tag">Vue.js & React</span>
+            <span class="skill-tag">Python & FastAPI</span>
+            <span class="skill-tag">AWS Cloud</span>
+            <span class="skill-tag">Docker & Microservices</span>
+            <span class="skill-tag">Solidity & Ethereum</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h4>Glazbene Vještine</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Tambura, Mandolina</span>
+            <span class="skill-tag">Cimbalom, Violina</span>
+            <span class="skill-tag">Dirigiranje</span>
+            <span class="skill-tag">Aranžiranje</span>
+            <span class="skill-tag">Sibelius</span>
+            <span class="skill-tag">Glazbena pedagogija</span>
+          </div>
         </div>
       </div>
     </div>
@@ -120,94 +158,307 @@
     <div class="projects-grid">
       
       <div class="project-card" data-category="it">
-        <div class="project-icon">🔌</div>
-        <h3>Sustav za upravljanje IoT uređajima</h3>
+        <div class="project-header">
+          <div class="project-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2L2 7V10C2 16 6 21.5 12 22C18 21.5 22 16 22 10V7L12 2Z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M9 12L11 14L15 10"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>MusicStore - Decentralizirana glazbena tržnica</h3>
+        </div>
         <p>
-          Razvoj distribuiranog sustava za upravljanje i monitoring IoT senzora
-          u real-time okruženju.
+          Napredna Web3 aplikacija za kupnju i prodaju glazbenih NFT-ova s
+          aukcijskim sustavom izgrađena na Ethereum blockchainu. Omogućuje
+          glazbenicima direktnu prodaju bez posrednika.
         </p>
         <div class="project-tech">
-          <span class="tech-tag">Node.js</span>
-          <span class="tech-tag">MQTT</span>
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">MongoDB</span>
+          <div class="tech-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#4FC08D">
+              <path d="M2,3H5.5L12,15L18.5,3H22L12,21L2,3Z" />
+            </svg>
+            <span>Vue.js 3</span>
+          </div>
+          <div class="tech-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#363636">
+              <path
+                d="M12,2L2,7V10C2,16 6,21.5 12,22C18,21.5 22,16 22,10V7L12,2M11,14H13V16H11V14M11,10H13V12H11V10Z"
+              />
+            </svg>
+            <span>Solidity</span>
+          </div>
+          <div class="tech-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#627EEA">
+              <path
+                d="M11.944,17.97L4.58,13.62L11.943,24L19.31,13.62L11.944,17.97ZM12.056,0L4.69,12.223L12.056,16.578L19.42,12.223L12.056,0Z"
+              />
+            </svg>
+            <span>Ethereum</span>
+          </div>
         </div>
+        <a
+          href="https://github.com/gberonja/Music-NFT-Marketplace"
+          target="_blank"
+          class="project-link"
+        >
+          Pogledaj na GitHub →
+        </a>
       </div>
 
       <div class="project-card" data-category="it">
-        <div class="project-icon">📱</div>
-        <h3>Mobilna aplikacija za praćenje navika</h3>
+        <div class="project-header">
+          <div class="project-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2Z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M14 2V8H20"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M16 13H8"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M16 17H8"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10 9H9H8"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>VirtuNote - Platforma za glazbene partiture</h3>
+        </div>
         <p>
-          Cross-platform aplikacija s naprednom analizom podataka i
-          personaliziranim preporukama.
+          Komprehenzivna aplikacija za pohranu i dijeljenje glazbenih partitura
+          s mikroservisnom arhitekturom. Omogućuje sigurnu pohranu,
+          pretraživanje i dijeljenje kompozicija.
         </p>
         <div class="project-tech">
-          <span class="tech-tag">React Native</span>
-          <span class="tech-tag">TensorFlow</span>
-          <span class="tech-tag">Firebase</span>
+          <div class="tech-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#009688">
+              <path
+                d="M12,2C13.1,2 14,2.9 14,4C14,5.1 13.1,6 12,6C10.9,6 10,5.1 10,4C10,2.9 10.9,2 12,2M21,9V7L15,1L11,5L14,8L21,9M15,12L11,8L9,10L13,14L15,12M7,8V16L13,20V12L7,8Z"
+              />
+            </svg>
+            <span>FastAPI</span>
+          </div>
+          <div class="tech-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF9900">
+              <path
+                d="M3.79,12.87L3.79,12.87C3.79,12.87 3.79,12.87 3.79,12.87Z"
+              />
+            </svg>
+            <span>AWS S3</span>
+          </div>
+          <div class="tech-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#2496ED">
+              <path d="M13.76,19.7C13.76,19.7 13.76,19.7 13.76,19.7Z" />
+            </svg>
+            <span>Docker</span>
+          </div>
         </div>
+        <a
+          href="https://github.com/gberonja/VirtuNote"
+          target="_blank"
+          class="project-link"
+        >
+          Pogledaj na GitHub →
+        </a>
       </div>
 
       <div class="project-card" data-category="it">
-        <div class="project-icon">⛓️</div>
-        <h3>Blockchain platforma za verificiranje</h3>
+        <div class="project-header">
+          <div class="project-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 2V8H8L12 14L16 8H14V2H10Z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M4 18H20"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6 18V22H18V18"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>Earley Parser</h3>
+        </div>
         <p>
-          Decentralizirana aplikacija za sigurnu verificaciju i pohranu
-          digitalnih certifikata.
+          Python implementacija Earley parsing algoritma za bezkontekstne
+          gramatike. Podržava sve vrste gramatika uključujući dvosmislene i
+          epsilon produkcije.
         </p>
         <div class="project-tech">
-          <span class="tech-tag">Ethereum</span>
-          <span class="tech-tag">Solidity</span>
-          <span class="tech-tag">Web3.js</span>
+          <div class="tech-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#3776AB">
+              <path
+                d="M12.1,2.8C12.1,2.8 12.1,2.8 12.1,2.8L12.1,2.8C12.1,2.8 12.1,2.8 12.1,2.8Z"
+              />
+            </svg>
+            <span>Python</span>
+          </div>
+          <div class="tech-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#666">
+              <path
+                d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4Z"
+              />
+            </svg>
+            <span>Algorithms</span>
+          </div>
         </div>
+        <a
+          href="https://github.com/gberonja/Earley-parser"
+          target="_blank"
+          class="project-link"
+        >
+          Pogledaj na GitHub →
+        </a>
       </div>
 
       
       <div class="project-card" data-category="music">
-        <div class="project-icon">🎼</div>
-        <h3>Zbirka hrvatskih folklornih napjeva</h3>
+        <div class="project-header">
+          <div class="project-icon">🎼</div>
+          <h3>Two Nordic Melodies - Grieg Edvard</h3>
+        </div>
         <p>
-          Transkripcija i digitalizacija tradicijskih napjeva iz različitih
-          hrvatskih regija. Besplatne partiture.
+          Aranžman čuvenih nordijskih melodija Edvarda Griega prilagođen za
+          koncertni tamburaški orkestar. Spoj klasične glazbe i hrvatske
+          tradicijske instrumentacije.
         </p>
         <div class="project-tech">
-          <span class="tech-tag">Transkripcija</span>
-          <span class="tech-tag">Sibelius</span>
-          <span class="tech-tag">PDF</span>
+          <div class="tech-item">
+            <span>🎵 Aranžiranje</span>
+          </div>
+          <div class="tech-item">
+            <span>🎼 Sibelius</span>
+          </div>
+          <div class="tech-item">
+            <span>🪕 Tamburaški orkestar</span>
+          </div>
+        </div>
+        <a
+          href="https://imslp.org/wiki/2_Nordic_Melodies,_Op.63_(Grieg,_Edvard)"
+          target="_blank"
+          class="project-link"
+        >
+          Pogledaj originalno djelo →
+        </a>
+      </div>
+
+      <div class="project-card" data-category="music">
+        <div class="project-header">
+          <div class="project-icon">🏛️</div>
+          <h3>Digitalizacija ostavštine Ljube Stipišića Delmate</h3>
+        </div>
+        <p>
+          Suradnja s Gradskom knjižnicom Marko Marulić Split na digitalizaciji i
+          katalogizaciji glazbene ostavštine jednog od najznačajnijih
+          dalmatinskih kompozitora.
+        </p>
+        <div class="project-tech">
+          <div class="tech-item">
+            <span>📚 Digitalizacija</span>
+          </div>
+          <div class="tech-item">
+            <span>🗂️ Katalogizacija</span>
+          </div>
+          <div class="tech-item">
+            <span>🏛️ Kulturno nasljeđe</span>
+          </div>
         </div>
       </div>
 
       <div class="project-card" data-category="music">
-        <div class="project-icon">🎵</div>
-        <h3>Aranžmani za folklorni ansambl</h3>
-        <p>
-          Suvremeni aranžmani tradicionalnih melodija prilagođeni različitim
-          sastavima.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">Aranžiranje</span>
-          <span class="tech-tag">Orkestracija</span>
-          <span class="tech-tag">Folklor</span>
+        <div class="project-header">
+          <div class="project-icon">🎓</div>
+          <h3>Profesionalni rad u Ansamblu LADO</h3>
         </div>
-      </div>
-
-      <div class="project-card" data-category="music">
-        <div class="project-icon">🎓</div>
-        <h3>Edukacijski glazbeni seminari</h3>
         <p>
-          Organizacija i vođenje seminara o hrvatskoj tradicijskoj glazbi i
-          instrumentima.
+          Rad kao profesionalni folklorni glazbenik u najprestižnijem hrvatskom
+          folklornom ansamblu. Sviranje tambure, mandoline, cimbaloma, violine i
+          drugih tradicijskih instrumenata.
         </p>
         <div class="project-tech">
-          <span class="tech-tag">Pedagogija</span>
-          <span class="tech-tag">Workshop</span>
-          <span class="tech-tag">Mentorstvo</span>
+          <div class="tech-item">
+            <span>🪕 Tambura</span>
+          </div>
+          <div class="tech-item">
+            <span>🎻 Mandolina</span>
+          </div>
+          <div class="tech-item">
+            <span>🎹 Cimbalom</span>
+          </div>
+          <div class="tech-item">
+            <span>🎼 Folklor</span>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 
 
 <section id="contact" class="section contact">
@@ -218,14 +469,14 @@
     </p>
 
     <div class="contact-info">
-      <a href="mailto:gabriel.beronja@gmail.com" class="contact-email"
-        >gabriel.beronja@gmail.com</a
-      >
+      <a href="mailto:gabriel.beronja@gmail.com" class="contact-email">
+        gabriel.beronja@gmail.com
+      </a>
     </div>
 
     <div class="social-links">
       <a
-        href="https://linkedin.com/in/gabrielberonja"
+        href="https://www.linkedin.com/in/gabriel-beronja/"
         class="social-link"
         target="_blank"
         rel="noopener"
@@ -238,7 +489,7 @@
         </svg>
       </a>
       <a
-        href="https://github.com/gabrielberonja"
+        href="https://github.com/gberonja"
         class="social-link"
         target="_blank"
         rel="noopener"
@@ -251,7 +502,7 @@
         </svg>
       </a>
       <a
-        href="https://instagram.com/gabrielberonja"
+        href="https://instagram.com/gabriel.beronja"
         class="social-link"
         target="_blank"
         rel="noopener"

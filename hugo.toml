@@ -9,21 +9,26 @@ theme = ''
   description = "IT Developer & Folklorni Glazbenik"
   tagline = "Spajam tehnologiju i tradiciju kroz inovativna rješenja i glazbenu umjetnost"
   email = "gabriel.beronja@gmail.com"
+  location = "Zagreb, Hrvatska"
+  
+  # Професionalni status
+  current_position = "Ansambl LADO - Profesionalni folklorni glazbenik"
+  education = "Student 2. godine diplomskog studija informatike - Sveučilište Jurja Dobrile u Puli"
   
   # Social links
   [[params.social]]
     name = "LinkedIn"
-    url = "https://linkedin.com/in/gabrielberonja"
+    url = "https://www.linkedin.com/in/gabriel-beronja/"
     icon = "linkedin"
   
   [[params.social]]
     name = "GitHub"
-    url = "https://github.com/gabrielberonja"
+    url = "https://github.com/gberonja"
     icon = "github"
     
   [[params.social]]
     name = "Instagram"
-    url = "https://instagram.com/gabrielberonja"
+    url = "https://instagram.com/gabriel.beronja"
     icon = "instagram"
 
 # Navigacija
@@ -56,3 +61,56 @@ theme = ''
 
 [params.custom]
   fontLink = "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+
+# Projekti - podatci za lakše upravljanje
+[[params.projects]]
+  name = "MusicStore"
+  category = "it"
+  title = "MusicStore - Decentralizirana glazbena tržnica"
+  description = "Napredna Web3 aplikacija za kupnju i prodaju glazbenih NFT-ova s aukcijskim sustavom izgrađena na Ethereum blockchainu."
+  technologies = ["Vue.js 3", "Solidity", "Ethereum", "Hardhat", "MetaMask"]
+  github = "https://github.com/gberonja/Music-NFT-Marketplace"
+  icon = "blockchain"
+
+[[params.projects]]
+  name = "VirtuNote"
+  category = "it"
+  title = "VirtuNote - Platforma za glazbene partiture"
+  description = "Komprehenzivna aplikacija za pohranu i dijeljenje glazbenih partitura s mikroservisnom arhitekturom."
+  technologies = ["FastAPI", "AWS S3", "DynamoDB", "Docker", "JWT"]
+  github = "https://github.com/gberonja/VirtuNote"
+  icon = "document"
+
+[[params.projects]]
+  name = "EarleyParser"
+  category = "it"
+  title = "Earley Parser"
+  description = "Python implementacija Earley parsing algoritma za bezkontekstne gramatike."
+  technologies = ["Python", "Algorithms", "Parsing"]
+  github = "https://github.com/gberonja/Earley-parser"
+  icon = "code"
+
+[[params.projects]]
+  name = "GriegArrangement"
+  category = "music"
+  title = "Two Nordic Melodies - Grieg Edvard"
+  description = "Aranžman čuvenih nordijskih melodija Edvarda Griega prilagođen za koncertni tamburaški orkestar."
+  technologies = ["Aranžiranje", "Sibelius", "Tamburaški orkestar"]
+  external_link = "https://imslp.org/wiki/2_Nordic_Melodies,_Op.63_(Grieg,_Edvard)"
+  icon = "music"
+
+[[params.projects]]
+  name = "DelmateLegacy"
+  category = "music"
+  title = "Digitalizacija ostavštine Ljube Stipišića Delmate"
+  description = "Suradnja s Gradskom knjižnicom Marko Marulić Split na digitalizaciji glazbene ostavštine."
+  technologies = ["Digitalizacija", "Katalogizacija", "Kulturno nasljeđe"]
+  icon = "archive"
+
+[[params.projects]]
+  name = "LadoWork"
+  category = "music"
+  title = "Profesionalni rad u Ansamblu LADO"
+  description = "Rad kao profesionalni folklorni glazbenik u najprestižnijem hrvatskom folklornom ansamblu."
+  technologies = ["Tambura", "Mandolina", "Cimbalom", "Folklor"]
+  icon = "performance"
